@@ -3,7 +3,7 @@
 import Quiz from "./components/Quiz.vue"; // Import du composant Quiz
 import { onMounted, ref } from "vue"; // Import des fonctions de composition Vue
 
-// Déclaration des états réactifs
+// -Déclaration des états réactifs
 const quizData = ref(null); // Stocke les données du quiz (null initialement)
 const state = ref("loading"); // Gère l'état du composant ("loading", "idle" ou "erreur")
 
