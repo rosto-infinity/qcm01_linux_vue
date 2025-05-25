@@ -13,7 +13,7 @@ onMounted(async () => {
     // 1. -Tentative de récupération des données du quiz
     const response = await fetch("/quiz.json");
     
-    // 2. Vérification si la réponse est OK (statut 200-299)
+    // 2. -Vérification si la réponse est OK (statut 200-299)
     if (!response.ok) {
       throw new Error("Erreur lors du chargement du quiz");
     }
