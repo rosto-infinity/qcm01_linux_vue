@@ -1,0 +1,38 @@
+{
+  "title": "Questionnaire sur Vue.js et Laravel",
+  "minimum_score": 4,
+  "success_message": "Félicitations ! Vous maîtrisez bien Vue.js et Laravel.",
+  "failure_message": "Dommage ! Il est temps de renforcer vos compétences en Vue.js et Laravel.",
+  "questions": [
+    {
+      "question": "Qui est le créateur de Vue.js ?",
+      "choices": ["Evan You", "Taylor Otwell", "Brendan Eich", "Guillermo Rauch"],
+      "correct_answer": "Evan You"
+    },
+    {
+      "question": "Quelle directive Vue.js est utilisée pour lier dynamiquement un attribut HTML à une expression ?",
+      "choices": ["v-for", "v-bind", "v-model", "v-if"],
+      "correct_answer": "v-bind"
+    },
+    {
+      "question": "Quel moteur de template est utilisé par Laravel ?",
+      "choices": ["Blade", "Twig", "Smarty", "Mustache"],
+      "correct_answer": "Blade"
+    },
+    {
+      "question": "Quelle commande artisan permet de créer un nouveau contrôleur dans Laravel ?",
+      "choices": [
+        "php artisan make:controller",
+        "php artisan create:controller",
+        "php artisan controller:create",
+        "php artisan new:controller"
+      ],
+      "correct_answer": "php artisan make:controller"
+    },
+    {
+      "question": "Dans Vue.js, quelle directive est utilisée pour le rendu conditionnel d'un élément ?",
+      "choices": ["v-show", "v-if", "v-else", "v-condition"],
+      "correct_answer": "v-if"
+    }
+  ]
+}
