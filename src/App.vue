@@ -21,7 +21,7 @@ onMounted(async () => {
     // 3. -Conversion de la réponse en JSON
     const data = await response.json();
     
-    // 4. Mise à jour des états
+    // 4. -Mise à jour des états
     quizData.value = data; // Stockage des données du quiz
     state.value = "idle";  // Passage en état "idle" (prêt)
     
