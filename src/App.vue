@@ -10,7 +10,7 @@ const state = ref("loading"); // Gère l'état du composant ("loading", "idle" o
 // -Hook de cycle de vie : exécuté après le montage du composant
 onMounted(async () => {
   try {
-    // 1. Tentative de récupération des données du quiz
+    // 1. -Tentative de récupération des données du quiz
     const response = await fetch("/quiz.json");
     
     // 2. Vérification si la réponse est OK (statut 200-299)
