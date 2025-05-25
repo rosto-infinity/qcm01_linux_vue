@@ -26,7 +26,7 @@ onMounted(async () => {
     state.value = "idle";  // Passage en état "idle" (prêt)
     
   } catch (error) {
-    // 5. Gestion des erreurs
+    // 5. -Gestion des erreurs
     console.error("Erreur:", error); // Log de l'erreur
     state.value = "erreur"; // Passage en état d'erreur
   }
