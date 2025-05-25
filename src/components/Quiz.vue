@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <!-- Template principal du composant -->
+  <!-- -Template principal du composant -->
   <div>
     <!-- Affichage du titre du quiz récupéré depuis les props -->
     {{ quizData.title }}
