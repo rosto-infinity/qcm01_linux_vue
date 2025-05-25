@@ -1,5 +1,5 @@
 <script setup>
-// Définition des props (propriétés) reçues par le composant
+// -Définition des props (propriétés) reçues par le composant
 // Ici, on attend un objet 'quizData' contenant les données du quiz
 defineProps({
   quizData: Object // Type validation: indique que quizData doit être un Object
