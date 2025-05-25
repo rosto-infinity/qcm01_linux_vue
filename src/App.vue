@@ -35,7 +35,7 @@ onMounted(async () => {
 
 <template>
   <div class="container" style="margin-top:2rem">
-    <!-- Affichage conditionnel basé sur l'état -->
+    <!-- -Affichage conditionnel basé sur l'état -->
     
     <!-- 1. Cas d'erreur -->
     <div v-if="state === 'erreur'" class="error">
