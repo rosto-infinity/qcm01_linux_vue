@@ -18,7 +18,7 @@ onMounted(async () => {
       throw new Error("Erreur lors du chargement du quiz");
     }
     
-    // 3. Conversion de la réponse en JSON
+    // 3. -Conversion de la réponse en JSON
     const data = await response.json();
     
     // 4. Mise à jour des états
