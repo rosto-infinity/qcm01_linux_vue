@@ -1,6 +1,6 @@
 {
   "title": "Questionnaire sur Vue.js et Laravel",
-  "minimum_score": 4,
+  "minimum_score": 16,
   "success_message": "Félicitations ! Vous maîtrisez bien Vue.js et Laravel.",
   "failure_message": "Dommage ! Il est temps de renforcer vos compétences en Vue.js et Laravel.",
   "questions": [
@@ -33,6 +33,106 @@
       "question": "Dans Vue.js, quelle directive est utilisée pour le rendu conditionnel d'un élément ?",
       "choices": ["v-show", "v-if", "v-else", "v-condition"],
       "correct_answer": "v-if"
+    },
+    {
+      "question": "Quel est le nom du système de gestion d'état officiel de Vue.js ?",
+      "choices": ["Redux", "Vuex", "Pinia", "MobX"],
+      "correct_answer": "Vuex"
+    },
+    {
+      "question": "Quelle commande artisan permet de créer une nouvelle migration dans Laravel ?",
+      "choices": [
+        "php artisan make:migration",
+        "php artisan create:migration",
+        "php artisan migration:create",
+        "php artisan new:migration"
+      ],
+      "correct_answer": "php artisan make:migration"
+    },
+    {
+      "question": "Dans Vue.js, quelle directive est utilisée pour créer une liaison bidirectionnelle sur un champ de formulaire ?",
+      "choices": ["v-bind", "v-model", "v-on", "v-for"],
+      "correct_answer": "v-model"
+    },
+    {
+      "question": "Quel est le nom du fichier de configuration principal de Laravel ?",
+      "choices": ["config.php", ".env", "settings.php", "app.php"],
+      "correct_answer": ".env"
+    },
+    {
+      "question": "Quelle directive Vue.js est utilisée pour itérer sur une liste ?",
+      "choices": ["v-for", "v-repeat", "v-each", "v-loop"],
+      "correct_answer": "v-for"
+    },
+    {
+      "question": "Quelle commande artisan permet de lancer le serveur de développement Laravel ?",
+      "choices": [
+        "php artisan serve",
+        "php artisan start",
+        "php artisan run",
+        "php artisan server"
+      ],
+      "correct_answer": "php artisan serve"
+    },
+    {
+      "question": "Dans Vue.js, où sont définies les propriétés calculées (computed properties) ?",
+      "choices": ["Dans 'methods'", "Dans 'data'", "Dans 'computed'", "Dans 'props'"],
+      "correct_answer": "Dans 'computed'"
+    },
+    {
+      "question": "Quel est le rôle du middleware dans Laravel ?",
+      "choices": [
+        "Gérer les migrations",
+        "Filtrer les requêtes HTTP",
+        "Créer des vues",
+        "Gérer les événements"
+      ],
+      "correct_answer": "Filtrer les requêtes HTTP"
+    },
+    {
+      "question": "Dans Vue.js, quelle directive est utilisée pour gérer les événements ?",
+      "choices": ["v-on", "v-bind", "v-if", "v-model"],
+      "correct_answer": "v-on"
+    },
+    {
+      "question": "Quelle commande artisan permet de créer un nouveau modèle dans Laravel ?",
+      "choices": [
+        "php artisan make:model",
+        "php artisan create:model",
+        "php artisan model:create",
+        "php artisan new:model"
+      ],
+      "correct_answer": "php artisan make:model"
+    },
+    {
+      "question": "Dans Vue.js, quel est le hook du cycle de vie appelé après que le composant a été monté ?",
+      "choices": ["created", "mounted", "beforeMount", "updated"],
+      "correct_answer": "mounted"
+    },
+    {
+      "question": "Quel est le nom du système de routage officiel de Vue.js ?",
+      "choices": ["Vue Router", "Vuex", "React Router", "Angular Router"],
+      "correct_answer": "Vue Router"
+    },
+    {
+      "question": "Quelle commande artisan permet de voir la liste des routes dans Laravel ?",
+      "choices": [
+        "php artisan route:list",
+        "php artisan list:routes",
+        "php artisan routes",
+        "php artisan show:routes"
+      ],
+      "correct_answer": "php artisan route:list"
+    },
+    {
+      "question": "Dans Vue.js, comment appelle-t-on une fonction qui observe et réagit aux changements d'une donnée ?",
+      "choices": ["Watcher", "Observer", "Listener", "Subscriber"],
+      "correct_answer": "Watcher"
+    },
+    {
+      "question": "Quel est le nom du système de gestion des dépendances utilisé par Laravel ?",
+      "choices": ["NPM", "Composer", "Yarn", "Pip"],
+      "correct_answer": "Composer"
     }
   ]
 }
