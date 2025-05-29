@@ -1,8 +1,15 @@
 <script setup>
+import { ref, computed } from 'vue';
+
 
 const props = defineProps({
  questionQuiz: Object
 })
+
+const emits = defineEmits(['answer'])
+const answer = ref(null)
+
+const hasAnswer =computed(() => answer.value !== null)
 
 </script>
 
@@ -16,12 +23,15 @@ const props = defineProps({
       <input 
         :id="`answer${index}`"
         :value="choice"
+        v-model="answer"
       type="radio" name="answer" />  {{ choice }}
      </label>
     </li>
   </ul>
-
-  <button>Question suivante</button>
+<!-- {{ answer }} -->
+  <button 
+  :disabled="!hasAnswer"
+  @click="emits('answer', answer)">Question suivante</button>
 
  </div>
 </template>
