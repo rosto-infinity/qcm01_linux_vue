@@ -1,5 +1,6 @@
 <script setup>
 // -Import des composants et fonctions nécessaires
+import Enfant from "./components/Enfant.vue";
 import Quiz from "./components/Quiz.vue"; // Import du composant Quiz
 import { onMounted, ref } from "vue"; // Import des fonctions de composition Vue
 
@@ -31,6 +32,8 @@ onMounted(async () => {
     state.value = "erreur"; // Passage en état d'erreur
   }
 });
+
+const subTitre ='Développeur'
 </script>
 
 <template>
@@ -51,4 +54,6 @@ onMounted(async () => {
     <!-- 3. Cas de chargement (état par défaut) -->
     <div v-else>Chargement..</div>
   </div>
+
+  <Enfant  :sub-titre="subTitre"/>
 </template>
