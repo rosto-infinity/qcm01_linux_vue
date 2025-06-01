@@ -8,7 +8,7 @@ import { onMounted, ref } from "vue"; // Import des fonctions de composition Vue
 const quizData = ref(null); // Stocke les données du quiz (null initialement)
 const state = ref("loading"); // Gère l'état du composant ("loading", "idle" ou "erreur")
 
-// -Hook de cycle de vie : exécuté après le montage du composant
+// --Hook de cycle de vie : exécuté après le montage du composant
 onMounted(async () => {
   try {
     // 1. -Tentative de récupération des données du quiz
