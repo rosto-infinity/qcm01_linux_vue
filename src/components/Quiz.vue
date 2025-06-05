@@ -13,7 +13,7 @@ const answers = ref(props.quizData.questions.map(() => null))
 const step = ref(0);
 
 const questionQuiz = computed(() => props.quizData.questions[step.value])
-
+//Fonction pour recupere la reponse
 const addAnswer = (answer) => {
   answers.value[step.value] =answer;
   step.value++
