@@ -9,6 +9,7 @@ const props = defineProps({
   quizData: Object // -Type validation: indique que quizData doit être un Object
 })
 
+//pour les differenrtes qcm
 const answers = ref(props.quizData.questions.map(() => null))
 const step = ref(0);
 
