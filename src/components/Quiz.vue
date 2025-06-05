@@ -6,7 +6,7 @@ import Question from "./Question.vue";
 // -Définition des props (propriétés) reçues par le composant
 // Ici, on attend un objet 'quizData' contenant les données du quiz
 const props = defineProps({
-  quizData: Object // Type validation: indique que quizData doit être un Object
+  quizData: Object // -Type validation: indique que quizData doit être un Object
 })
 
 const answers = ref(props.quizData.questions.map(() => null))
